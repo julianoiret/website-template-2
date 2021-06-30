@@ -1,0 +1,707 @@
+/* UNDERSTAND MY CODE */
+
+/* I used Bootstrap only for the modal and the navbar toogler */
+
+
+
+/* GENERAL */
+
+body {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	color: #000000;
+	background-color: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	padding: 30px 40px;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+	font-size: 45px;
+  font-weight: medium;
+}
+
+.special {
+	color: #6E819A;
+}
+
+.nav-item {
+	padding: 20px;
+}
+
+.nav-link {
+	font-size: 20px;
+}
+
+.active {
+	color: #6E819A !important;
+	font-weight: bold;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.nav-link:hover {
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/* BANNER */
+
+#banner {
+	height: 80vh;
+	background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.3) 50%),
+    url("../img/banner-2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#banner-content h1 {
+	font-size: 50px;
+    font-weight: bold;
+    color: #6E819A;
+}
+
+#banner-content h1 .special-2 {
+	color: #ffffff;
+	/* font-weight: lighter;  optional but cool too */
+}
+
+#banner-content p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: lighter;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+.btn-light {
+  color: #6E819A;
+	padding: 10px 15px;
+	font-weight: bold;
+}
+
+/* BOXES */
+
+#boxes {
+	margin-bottom: 20px;
+}
+
+.container .box {
+	padding: 30px;
+}
+
+.container .box h2 {
+	font-weight: lighter;
+}
+
+.container .box h2, .container .box p {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.container .box .content {
+	text-align: justify;
+	font-weight: lighter;
+}
+
+/* ABOUT */
+
+#about {
+	/* background-color: #EDDCD4; */
+	padding: 30px;
+	display: flex;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+#about img {
+	width: 90%;
+
+}
+
+#about #creator-about {
+	width: 100%;
+}
+
+#about #creator-about h3 {
+   background-color: #a9b8c9;
+   position: absolute;
+   top: 100px;
+   left: 350px;
+   width: 30%;
+   padding: 20px 0 20px 20px;
+}
+
+#about #creator-about p {
+	padding-top: 170px;
+	padding-bottom: 15px;
+	line-height: 2em;
+}
+
+.btn-medium {
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 50px;
+	padding: 10px 15px;
+	font-weight: lighter;
+	opacity: 0.6;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.btn-medium-2 {
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 40px;
+	padding: 7px 15px;
+	font-weight: lighter;
+	opacity: 0.6;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+.btn-medium:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: #808080;
+}
+
+.btn-secondary {
+	border-radius: 40px;
+	opacity: 0.6;
+	font-weight: lighter;
+	text-decoration: none;
+}
+
+.modal-title {
+	color: #a9b8c9;
+	font-weight: bold;
+}
+
+.col-form-label {
+	font-weight: lighter;
+}
+
+/* MORE */
+
+#more {
+	background-color: #EDDCD4;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+#more h3 {
+	font-weight: lighter;
+	font-size: 40px;
+}
+
+#more h4 {
+	color: #8B8D8E;
+}
+
+#more p {
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 20px;
+	line-height: 2em;
+}
+
+#more img {
+	width: 80px;
+}
+
+#more #wildflower {
+	position: absolute;
+	left: 100px;
+	bottom: 0;
+}
+
+#more #wildflower-2 {
+   position: absolute;
+   top: 0;
+   right: 100px;
+}
+
+/* SQUARE PHOTOS */
+
+#portfolio {
+  margin-top: 30px;
+
+}
+
+#portfolio .box {
+
+}
+
+.container img {
+	width: 80%;
+}
+
+.container .box h5 {
+  padding-top: 20px;
+  text-align: left;
+}
+
+.container .box .project {
+	font-weight: lighter;
+	text-align: left;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #EEEEEE;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+footer ul li {
+	padding: 20px;
+
+}
+
+footer ul a {
+	text-decoration: none;
+	font-weight: lighter;
+	color: #6E819A;
+}
+
+footer a:hover {
+	color: #000000;
+}
+
+
+
+/* PAGE 2 - FEATURES */
+
+#services {
+	margin-top: 30px;
+	padding-bottom: 30px;
+}
+
+#services h2 {
+	font-weight: lighter;
+}
+
+#features {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card {
+	/* max-height: 500px; */
+}
+
+.card img {
+	width: 100%;
+    height: auto;    /* or 15vh but need to set auto in media queries for responsive design (phone) */
+    object-fit: cover;
+}
+
+.card .card-title {
+	padding-top: 10px;
+}
+
+.card .card-text {
+	padding-top: 20px;
+	font-weight: lighter;
+}
+
+.product-controls a {
+	font-size: 20px;
+	color: #cccccc;
+}
+
+.card .product-controls {
+	text-align: right;
+}
+
+.card .hover-effect img {
+	transition: all 0.3s;
+	transform: scale(1);
+}
+
+/* .card .hover-effect:hover img {
+	transform: scale(1.1);
+} */
+
+.card:hover {
+	background-color: #e6e6e6;
+}
+
+.card:hover i {
+	color: #a9b8c9;
+}
+
+
+
+/* PAGE 3 - PRICING */
+
+#pricing {
+  max-width: 1000px;
+  margin: 0 auto;
+ /*  position: relative; */
+  margin-bottom: 90px;
+  margin-top: 30px;
+}
+
+
+.listing /* li */ {
+    display: none;
+  }
+
+
+table {
+	width: 100%;
+}
+
+th {
+	background: #F5F5F5;
+}
+
+
+td,th {
+	border: 1px solid #DDD;
+	padding: 15px;
+    text-align: left;
+    width: 330px;
+    height: 53px
+}
+
+td+td, th+th {
+  text-align: center;
+}
+
+
+.bg-pink {
+  border-top: 3px solid #E0C6BA;
+}
+
+.bg-blue {
+  border-top: 3px solid #6E819A;
+}
+
+.sep {
+  background: #F5F5F5;
+  font-weight: bold;
+}
+
+.text-l {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.text-top {
+	position: relative;
+	top: -9px;
+	left: -2px;
+}
+
+.tick {
+	font-size: 18px;
+	color: #6E819A;
+}
+
+.hide {
+  border: 0;
+  background: none;
+}
+
+  td,th {
+    display: table-cell;
+  }
+
+
+
+
+
+
+/* FORM */
+
+#container-form {
+	background-color: #EDDCD4;
+}
+
+#form h2 {
+   color: #8B8D8E;
+}
+
+.hr-form {
+	max-width: 80px;
+    border-width: 3px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	border-color: #6E819A;
+	/* padding-bottom: 5px;  for something "bold" ? */
+}
+
+#form {
+  /* width: 100%; */
+  max-width: 800px;
+  margin: 0 auto;
+  /* position: relative; */
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.contact-form {
+  /* margin: 0 auto; make a difference to center all the form ? */
+}
+
+.form-style {
+    /* display: block; */
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    color: #eee;
+    opacity: 0.6;
+	background-color: #ffffff;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    font-weight: lighter;
+}
+
+.form-style:focus {
+    color: #000000;
+    background-color: #ffffff;
+    box-shadow: none;
+}
+
+/* textarea {
+    resize: none;
+} */
+
+.btn-form {
+	margin-top: 20px;
+	color: #808080;
+	border: 1px solid #808080;
+	border-radius: 30px;
+	padding: 10px 50px;
+	font-weight: lighter;
+	opacity: 0.6;
+	text-decoration: none;
+	background-color: #ffffff;
+}
+
+
+
+
+
+/* MEDIA QUERIES */
+
+
+@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+
+  header {
+  	padding: 10px 50px;
+  }
+
+  #banner {
+  	align-items: flex-start;
+  	height: 70vh;
+  	margin-bottom: 5px;
+  }
+
+  #banner-content {
+  	padding-top: 50px;
+  }
+
+.small-icon {
+	font-size: 50px;
+}
+
+.container .box {
+	padding: 10px 20px 0 20px;
+}
+
+#more h3 {
+	font-size: 30px;
+}
+
+#more img {
+	width: 50px;
+}
+
+#more #wildflower {
+	left: 20px;
+	bottom: 0;
+}
+
+#more #wildflower-2 {
+   top: 0;
+   right: 20px;
+}
+
+#more p {
+	width: 70%;
+	font-size: 15px;
+}
+
+#about {
+	display: block;
+}
+
+/* #about #creator-img {
+	text-align: center;
+} */
+
+#about #creator-about h3 {
+   background-color: #a9b8c9;
+   position: initial;
+   width: 50%;
+   padding: 5px 10px;
+   font-weight: lighter;
+   margin-top: 20px;
+}
+
+#about #creator-about p {
+	padding-top: 10px;
+	font-size: 15px;
+}
+
+.container .box, .container .box h5, .container .box .project {
+  text-align: center;
+}
+
+#portfolio {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#form {
+  max-width: 300px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-style {
+	width: 90%;
+}
+
+footer {
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.big-icon {
+	font-size: 30px;
+}
+
+footer ul a {
+	font-size: 10px;
+}
+
+th {
+	display:none;
+}
+
+#responsive-table {    /* ul */
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+td.default {
+  display:table-cell;
+
+}
+
+.listing {  /* li */
+  list-style: none;
+  display: inline;
+}
+
+.responsive-title {
+  width: 100%;
+  border: 1px solid #DDDDDD;
+  border-top: 0;
+  padding: 10px;
+  font-size: 14px;
+  height: 60px;
+  color: #000000
+}
+
+.responsive-title a {
+	text-decoration: none;
+	border: none;
+	color: #000000
+}
+
+li.active h4 {
+  background: #EEEEEE;
+  color: #000000;
+  font-weight: bold;
+}
+
+td+td, th+th {
+	display: none;
+}
+
+}
+
+
+@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+
+	  #banner {
+  	align-items: flex-start;
+  	height: 50vh;
+  	margin-bottom: 5px;
+  }
+
+   #banner-content {
+  	padding-top: 70px;
+  }
+
+  #about #creator-about p {
+	font-size: 10px;
+}
+
+  #form {
+  max-width: 500px;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.form-style {
+	width: 100%;
+}
+
+	}
+
+
+@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+
+#banner {
+  	align-items: center;
+  	height: 50vh;
+  	margin-bottom: 5px;
+}
+
+#banner-content {
+  	padding-bottom: 80px;
+}
+
+
+}
+
