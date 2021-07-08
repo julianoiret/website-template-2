@@ -509,7 +509,7 @@ td+td, th+th {
 /* MEDIA QUERIES */
 
 
-@media(max-width: 541px) and (min-width: 320px) /* iPhone & other */ {
+@media(max-width: 480px) and (min-width: 320px) /* iPhone & other */ {
 
   header {
   	padding: 10px 50px;
@@ -656,11 +656,10 @@ li.active h4 {
 td+td, th+th {
 	display: none;
 }
-
 }
 
 
-@media(max-width: 769px) and (min-width: 542px) /* ipad */ {
+@media(max-width: 768px) and (min-width: 481px) /* ipad */ {
 
 	  #banner {
   	align-items: flex-start;
@@ -686,11 +685,10 @@ td+td, th+th {
 .form-style {
 	width: 100%;
 }
-
 	}
 
 
-@media(max-width: 1366px) and (min-width: 1024px) /* ipad pro */ {
+/*@media(max-width: 1366px) and (min-width: 1024px) {
 
 #banner {
   	align-items: center;
@@ -701,7 +699,5 @@ td+td, th+th {
 #banner-content {
   	padding-bottom: 80px;
 }
-
-
-}
+}*/
 
